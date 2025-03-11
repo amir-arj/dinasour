@@ -47,7 +47,7 @@ body {
 .score {
   position: absolute;
   right: 0px;
-  color: rgb(9, 130, 3);
+  color: rgb(254, 254, 254);
   font-size: 18px;
   font-family: pixel-art;
 }
