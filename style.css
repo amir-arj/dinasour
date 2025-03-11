@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #040404;
 }
 
 #game-screen {
@@ -47,7 +47,7 @@ body {
 .score {
   position: absolute;
   right: 0px;
-  color: rgb(110, 110, 110);
+  color: rgb(9, 130, 3);
   font-size: 18px;
   font-family: pixel-art;
 }
