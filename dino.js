@@ -1,4 +1,4 @@
-console.log("dhsdh")
+console.log("dhsdh");
 const wrapper = document.querySelector(".wrapper");
 const dino = document.getElementById("dino");
 const dinoImg = document.getElementById("dino-img");
@@ -125,10 +125,9 @@ let isgamestarted = false;
 
 document.addEventListener("keyup", function (e) {
   if (e.code === "Space") {
-    if (!isgamestarted)
-    initGame();
+    if (!isgamestarted) initGame();
   }
-  if (e.code === "Space"  || e.code === "ArrowUp") {
+  if (e.code === "Space" || e.code === "ArrowUp") {
     if (jump) {
       dinoJump();
       document.body.pointerEvents = "none";
