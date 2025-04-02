@@ -3,11 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>dinasour game</title>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
-    <script src="dino.js"></sc>
+    <div class="wrapper">
+      <div class="pre-wrapper">
+        <h4>T-Rex dino game</h4>
+        <p>
+         press space to start the game 
+        </p>
+        <div class="game-wrapper">
+          <div class="road" id="road">
+            <img src="./image/road.png" alt="road" />
+          </div>
+          <div class="dino" id="dino">
+            <img src="./image/dino.png" alt="dino" id="dino-img" />
+          </div>
+          <div class="cactus" id="cactusImg">
+            <img src="./image/cactus1.png" alt="cactus1" id="cactus-img" />
+          </div>
+          <div class="clouds">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <span class="score">00000</span>
+          <span class="high-score">HI 00000</span>
+          <div class="game-over">
+            <h2>game over</h2>
+            <div class="restart-btn">
+              <img src="image/reload.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./dino.js"></script>
   </body>
 </html>
